@@ -10,6 +10,7 @@ public class TwoNumSum {
     System.out.println(Arrays.toString(result));
     }
 
+    // O(n) time | O(n) space
     public static int[] twoNumberSum(int[] array, int targetSum) {
         Map<Integer, Integer> storedNumbers = new HashMap<>();
         for(int i = 0; i < array.length; i++){
